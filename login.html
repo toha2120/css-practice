@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://kit.fontawesome.com/8699cfdb9e.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        nav a{
+            text-decoration: none;
+            margin-right: 30px;
+            color: lightcoral;
+            margin-top: 30px;
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .login-form input{
+            margin-top: 10px;
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+        .login-form input[type=button]{
+            background-color: yellow;
+            border-radius: 5px;
+            border: 0;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">homw</a>
+                <a href="">login</a>
+                <a href="">contact</a>
+                <a href="">about us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form class="login-form">
+            <h3>please login-form</h3>
+            <input type="email" name="email" id="" placeholder="entre email" required>
+            <input type="password" name="" id="" placeholder="entre password" required>
+            <input type="button" value="login">
+        </form>
+    </section>
+</body>
+</html>
